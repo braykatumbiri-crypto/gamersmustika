@@ -1,0 +1,15 @@
+KARAKTER 3D (glTF)
+
+1. Letakkan file .glb di folder ini, misalnya cowok.glb dan cewek.glb.
+   (Satu file untuk L dan P juga boleh: isi kedua-duanya dengan nama file yang sama.)
+2. Salin models.json.example menjadi models.json lalu sesuaikan nama file.
+3. Muat ulang game. Jika models.json tidak ada atau file gagal dimuat, karakter bawaan dipakai.
+
+Syarat model:
+- Humanoid dengan tinggi sekitar 1.8 satuan (1 satuan = 1 meter). Jika terlalu besar/kecil, ubah "scale".
+- Menghadap sumbu +Z (standar glTF). Jika menghadap terbalik, isi "rotY": 3.14159.
+- Animasi: klip yang namanya mengandung "walk" atau "run" dipakai saat bergerak, "idle" saat diam.
+- Tulang kepala bernama mengandung "Head" (otomatis untuk model Mixamo, Quaternius, Ready Player Me). Topi kostum dipasang di sana. Atur "hatOffset" bila topi terlalu tinggi/rendah.
+- Warna baju kostum diterapkan ke material yang namanya cocok dengan "tintMaterials".
+- Pakai lisensi yang membolehkan penggunaan dalam game (CC0 atau CC-BY dengan atribusi). Sumber: Quaternius, Kenney, Mixamo, Ready Player Me.
+- Ukuran file: usahakan di bawah 5 MB per model agar cepat dimuat.

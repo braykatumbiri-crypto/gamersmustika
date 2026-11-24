@@ -1,0 +1,9 @@
+{
+  "characters": { "L": "cowok.glb", "P": "cewek.glb" },
+  "scale": 1,
+  "rotY": 0,
+  "labelY": 2.3,
+  "hatOffset": 0.12,
+  "headY": 1.7,
+  "tintMaterials": "cloth|shirt|top|baju|outfit|jacket"
+}
